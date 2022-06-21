@@ -1,4 +1,7 @@
+
+document.querySelector("button").addEventListener("click", myFunction)
+  
 function myFunction() {
-  let x = document.getElementById("name").value;
-  document.getElementById("name").innerHTML ="Hello "x" ,welcome to the bootcamp";
+  var x = document.getElementById("#name").value;
+  document.getElementById("demo").innerHTML ="Hello " + x; ",welcome to the bootcamp";
 }

@@ -4,9 +4,10 @@
   </head>
   <body>
     <h1>Hello World</h1>
-   <p><label for="name">Your name:</label>
-  <input type="text" id="name" name="name" ><br>
+  <label for="name">Your name:</label>
+  <input type="text" id="name" oninput="myFunction()" ><br>
     <button onclick="myFunction()">click me</button>
-    <script src="./assets/main.js"></script></p>
+    <p id="demo"></p>
+    <script src="./assets/main.js"></script>
   </body>
 </html>
